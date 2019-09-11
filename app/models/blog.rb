@@ -4,4 +4,6 @@ class Blog < ApplicationRecord
   friendly_id :title, use: :slugged
 
   validates_presence_of :title, :body # it will not allow a blog post to be created with out these 2 items field out
+
+  belongs_to :topic
 end
