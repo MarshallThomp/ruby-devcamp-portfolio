@@ -58,3 +58,4 @@ gem 'devise', '~> 4.2'
 gem 'bootstrap', '~> 4.3.1'
 
 gem 'Mthomp_view_tool', git: 'https://github.com/MarshallThomp/MthompViewTool'
+gem 'petergate', '~> 1.7'
