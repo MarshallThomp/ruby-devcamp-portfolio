@@ -18,7 +18,6 @@ require "dotenv-rails"
 Bundler.require(*Rails.groups)
 
 module DevcampPortfolio
-  class Application < Rails::Application
-    config.eager_load_paths << "#{rails.root}/lib"
+  class Application < Rails::Application 
   end
 end
