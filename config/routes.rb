@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :comments
   devise_for :users, path: '', path_names: { sign_in: 'login', sign_out: 'sign_out', sign_up: 'register' }
   resources :portfolios, except: [:show] do
     put :sort, on: :collection

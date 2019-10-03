@@ -54,9 +54,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~>5.1.0'
 gem 'devise', '~> 4.2'
-
 gem 'bootstrap', '~> 4.3.1'
-
 gem 'Mthomp_view_tool', git: 'https://github.com/MarshallThomp/MthompViewTool'
 gem 'petergate', '~> 1.7'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
@@ -69,3 +67,4 @@ gem 'dotenv-rails', '~> 2.7', '>= 2.7.5'
 gem 'cocoon', '~> 1.2', '>= 1.2.14'
 gem 'gritter', '~> 1.2'
 gem 'twitter', '~> 6.2'
+gem 'redis', '~> 4.1', '>= 4.1.3'
